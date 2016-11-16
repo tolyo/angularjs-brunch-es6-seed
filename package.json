@@ -8,8 +8,9 @@
     "url": ""
   },
   "scripts": {
-    "start": "brunch watch --server",
-    "prod": "brunch build --production"
+    "dev": "brunch watch --server",
+    "prod": "brunch build --production",
+    "test": "./node_modules/karma/bin/karma start"
   },
   "dependencies": {
     "angular": "^1.5.3",

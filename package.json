@@ -7,6 +7,7 @@
     "type": "git",
     "url": ""
   },
+  "license": "MIT",
   "scripts": {
     "dev": "brunch watch --server",
     "prod": "brunch build --production",
@@ -23,7 +24,7 @@
     "auto-reload-brunch": "^2.0.0",
     "babel-brunch": "~6.0.0",
     "babel-preset-es2015": "~6.3.13",
-    "brunch": "^2.4.0",
+    "brunch": "2.8.0",
     "clean-css-brunch": "^2.0.0",
     "css-brunch": "^2.0.0",
     "eslint": "^2.12.0",

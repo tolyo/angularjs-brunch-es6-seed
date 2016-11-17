@@ -1,8 +1,8 @@
 {
   "name": "angularjs-ES6-brunch-seed",
-  "description": "Description",
+  "description": "ES6 Brunch starter for modern AngularJS",
   "author": "Your Name",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
     "url": ""

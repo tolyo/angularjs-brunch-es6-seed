@@ -1,11 +1,11 @@
 {
-  "name": "your-app",
+  "name": "angular-brunch-es6-seed",
   "description": "Description",
   "author": "Your Name",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/tolyo/angularjs-brunch-es6-seed"
   },
   "scripts": {
     "start":  "brunch watch --server",

@@ -1,6 +1,6 @@
 import angular from 'angular';
 import 'angular-route';
-import IndexCtrl from './IndexCtrl';
+import IndexComponent from './IndexComponent';
 
 angular.module('app', [
   'ngRoute'
@@ -10,4 +10,6 @@ angular.module('app', [
     $routeProvider.otherwise({redirectTo: '/'});
   }
 ])
-.controller('IndexCtrl', IndexCtrl);
+.component('index', IndexComponent);
+
+

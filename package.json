@@ -8,17 +8,18 @@
     "url": ""
   },
   "scripts": {
-    "start": "brunch watch --server",
-    "prod": "brunch build --production"
+    "start":  "brunch watch --server",
+    "prod":   "brunch build --production",
+    "test":   "./node_modules/karma/bin/karma start"
   },
   "dependencies": {
-    "angular": "^1.5.3",
-    "angular-route": "^1.5.3",
+    "angular": "^1.6.2",
+    "angular-route": "^1.6.2",
     "angular-ui-router": "^0.2.18"
   },
   "devDependencies": {
-    "angular-mocks": "^1.5.3",
-    "angular-scenario": "^1.5.3",
+    "angular-mocks": "^1.6.2",
+    "angular-scenario": "^1.6.2",
     "auto-reload-brunch": "^2.0.0",
     "babel-brunch": "~6.0.0",
     "babel-preset-es2015": "~6.3.13",
@@ -34,5 +35,12 @@
     "karma-chrome-launcher": "~0.1.4",
     "karma-jasmine": "~0.1.5",
     "uglify-js-brunch": "^2.0.0"
-  }
+  },
+  "keywords": [
+    "babel",
+    "brunch",
+    "angularjs",
+    "es6",
+    "seed"
+  ]
 }

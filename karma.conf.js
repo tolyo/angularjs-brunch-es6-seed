@@ -15,9 +15,9 @@
 
       // list of files / patterns to load in the browser
       files: [
-        'build/css/app.css',
+        'public/css/app.css',
         'https://cdnjs.cloudflare.com/ajax/libs/jasmine/2.3.4/jasmine.min.js',
-        'build/js/app.js',
+        'public/js/app.js',
         'karmaboot.js',
         'node_modules/angular-mocks/angular-mocks.js',
         'node_modules/angular-mocks/angular-scenario.js',

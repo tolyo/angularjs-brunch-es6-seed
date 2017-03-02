@@ -1,8 +1,8 @@
 {
-  "name": "angular-brunch-es6-seed",
+  "name": "angularjs-ES6-brunch-seed",
   "description": "Description",
   "author": "Your Name",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/tolyo/angularjs-brunch-es6-seed"

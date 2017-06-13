@@ -1,4 +1,3 @@
-'use strict';
 
 const DELAY = 1000;
 

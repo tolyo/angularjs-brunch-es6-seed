@@ -8,14 +8,14 @@
     "url": "https://github.com/tolyo/angularjs-brunch-es6-seed"
   },
   "scripts": {
-    "start":  "brunch watch --server",
-    "prod":   "brunch build --production",
-    "test":   "./node_modules/karma/bin/karma start"
+    "start": "brunch watch --server",
+    "prod": "brunch build --production",
+    "test": "./node_modules/karma/bin/karma start"
   },
   "dependencies": {
-    "angular": "^1.6.2",
-    "angular-route": "^1.6.2",
-    "angular-ui-router": "^0.2.18"
+    "angular": "^1.7.8",
+    "angular-route": "^1.7.8",
+    "angular-ui-router": "^1.0.0"
   },
   "devDependencies": {
     "angular-mocks": "^1.6.2",

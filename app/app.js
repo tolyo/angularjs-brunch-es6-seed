@@ -5,11 +5,11 @@ import IndexComponent from './IndexComponent';
 angular.module('app', [
   'ngRoute'
 ])
-.config(['$locationProvider', '$routeProvider',
-  ($locationProvider, $routeProvider) => {
-    $routeProvider.otherwise({redirectTo: '/'});
-  }
-])
-.component('index', IndexComponent);
+  .config(['$locationProvider', '$routeProvider',
+    ($locationProvider, $routeProvider) => {
+      $routeProvider.otherwise({redirectTo: '/'});
+    }
+  ])
+  .component('index', IndexComponent);
 
 

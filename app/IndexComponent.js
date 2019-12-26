@@ -27,7 +27,7 @@ class IndexCtrl {
 
 IndexCtrl.$inject = ['$interval'];
 
-export default {
+export const indexComponent = {
   template  : 'Current time: {{ $ctrl.currentTime }}',
   controller: IndexCtrl
 };

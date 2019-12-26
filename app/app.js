@@ -1,15 +1,7 @@
 import angular from 'angular';
-import 'angular-route';
-import IndexComponent from './IndexComponent';
+import { indexComponent } from './IndexComponent';
 
-angular.module('app', [
-  'ngRoute'
-])
-  .config(['$locationProvider', '$routeProvider',
-    ($locationProvider, $routeProvider) => {
-      $routeProvider.otherwise({redirectTo: '/'});
-    }
-  ])
-  .component('index', IndexComponent);
+angular.module('app',[])
+  .component('index', indexComponent);
 
 

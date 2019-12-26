@@ -8,33 +8,32 @@
     "url": "https://github.com/tolyo/angularjs-brunch-es6-seed"
   },
   "scripts": {
-    "start": "brunch watch --server",
+    "dev": "brunch watch --server",
     "prod": "brunch build --production",
     "test": "./node_modules/karma/bin/karma start"
   },
   "dependencies": {
-    "angular": "^1.7.8",
-    "angular-route": "^1.7.8",
-    "angular-ui-router": "^1.0.0"
+    "angular": "^1.7.9",
+    "angular-ui-router": "^1.0.23"
   },
   "devDependencies": {
-    "angular-mocks": "^1.6.2",
-    "angular-scenario": "^1.6.2",
-    "auto-reload-brunch": "^2.0.0",
-    "babel-brunch": "~6.0.0",
-    "babel-preset-es2015": "~6.3.13",
-    "brunch": "^2.4.0",
-    "clean-css-brunch": "^2.0.0",
-    "css-brunch": "^2.0.0",
-    "eslint": "^2.12.0",
-    "eslint-brunch": "^3.6.0",
-    "html-pages-brunch": "^2.0.0",
-    "javascript-brunch": "^2.0.0",
-    "karma": "~0.12.23",
-    "karma-babel-preprocessor": "^6.0.0",
-    "karma-chrome-launcher": "~0.1.4",
-    "karma-jasmine": "~0.1.5",
-    "uglify-js-brunch": "^2.0.0"
+    "angular-mocks": "^1.7.9",
+    "angular-scenario": "^1.7.9",
+    "auto-reload-brunch": "^2.7.1",
+    "babel-brunch": "~7.0.1",
+    "babel-preset-latest": "^6.24.1",
+    "brunch": "^2.10.17",
+    "clean-css-brunch": "^3.0.0",
+    "css-brunch": "^2.10.0",
+    "eslint": "^6.8.0",
+    "eslint-brunch": "^3.12.0",
+    "html-pages-brunch": "^2.8.0",
+    "javascript-brunch": "^2.10.0",
+    "karma": "~4.4.1",
+    "karma-babel-preprocessor": "^8.0.1",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-jasmine": "~2.0.1",
+    "uglify-js-brunch": "^2.10.0"
   },
   "keywords": [
     "babel",
